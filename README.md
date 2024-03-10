@@ -7,7 +7,7 @@ The Gecko Listing Notifier is a Python script designed to monitor CoinGecko for 
 ## Features
 
 - **Automatic Monitoring**: Periodically checks CoinGecko for new cryptocurrency listings.
-- **Notification**: Alerts users with a beep sound when new listings are detected.
+- **Notification**: Alerts users with a beep sound when new listings are detected. (We can add different ways of notification, just for my usecase I'm adding beeps now!)
 - **Change Detection**: Saves cryptocurrency listings only when changes are detected, minimizing unnecessary data storage.
 - **Logging**: Provides detailed logs for monitoring script activity and troubleshooting.
 
