@@ -99,7 +99,7 @@ def main():
 
         # Adjust the sleep time as necessary to respect API rate limits
         logging.info("Waiting before the next check...")
-        time.sleep(100)  # Wait for 5 minutes before the next check
+        time.sleep(100)  # Wait time due to api rate limits,  you can implement much more intelligent stuff, I'm just writing this quick coz I needed the code ready in like 20 minutes. 
 
 
 if __name__ == "__main__":
